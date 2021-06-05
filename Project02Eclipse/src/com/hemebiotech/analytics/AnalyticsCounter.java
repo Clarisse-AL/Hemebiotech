@@ -9,13 +9,14 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * Print a map in external file
+ * Browse the list, sort it alphabetically and count the occurrences
+ * Print in external file
  */
 
 public class AnalyticsCounter {
 
 	/**
-	 * browse the list, sort it alphabetically and count the occurrences
+	 * Browse the list, sort it alphabetically and count the occurrences
 	 *
 	 * @param symptoms list of symptoms
 	 * @return countSymptoms list of symptoms in a natural order and count the strings occurrences

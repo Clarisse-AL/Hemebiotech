@@ -4,11 +4,13 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+/**
+ * Run the program
+ */
 
 public class Main {
 
     /**
-     * Run the program
      * @param args
      * @throws IOException
      */
