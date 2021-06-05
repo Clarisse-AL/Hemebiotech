@@ -30,7 +30,7 @@ public class AnalyticsCounter {
 				countSymptoms.merge(symptom, 1, Integer::sum);
 			}
 			System.out.println("The symptoms.txt file was analyzed correctly");
-		}
+	}
 		catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Cause : " + e.getCause());

@@ -18,7 +18,7 @@ public class Main {
         /*
         Read symptoms.txt and return list
          */
-        ReadSymptomDataFromFile readData = new ReadSymptomDataFromFile(new File("resources/symptoms.txt"));
+        ReadSymptomDataFromFile readData = new ReadSymptomDataFromFile(new File("Project02Eclipse/resources/symptoms.txt"));
         List<String> symptoms = readData.GetSymptoms();
 
         /*
